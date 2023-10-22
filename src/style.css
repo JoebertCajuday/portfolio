@@ -2,8 +2,46 @@
     height: 100vh;
 }
 
+.faders{
+	opacity: 0;
+}
+
 .c-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.orange{
+	color: #ff531a;
+}
+
+.poiret-one{ font-family: 'Poiret One';}
+.argent{ font-family: 'Argent CF'}
+.oregon{ font-family: 'Oregon'}
+.metropolis{ font-family: 'Metropolis'}
+.simplifica{ font-family: 'Simplifica'}
+
+.dark-c1{
+	background: #0c3300;
+}
+
+.nav-blue{
+	background: #0066ff;
+}
+
+.window-com{
+	/*background: rgba(0, 153, 0, 0.1);*/
+	border: 3px solid #00b300;
+}
+
+div .red{
+	width: 25px;
+	height: 20px;
+	background: #ff0000;
+	border-radius: 50%;
+}
+
+.c-list{
+	list-style-type: '❤️';
 }

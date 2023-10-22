@@ -4,145 +4,208 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Portfolio</title>
+
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+	<link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Argent CF' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Oregon' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="./src/style.css">
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	
 </head>
 <body>
-	<div class="bg-light">
 
-		<nav class="navbar navbar-expand-lg shadow-sm" aria-label="Eleventh navbar example">
-			<div class="container-fluid d-flex">
-				<a class="navbar-brand" href="#"><h3>JOEBERT CAJUDAY</h3></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
+	<nav class="navbar navbar-expand-lg shadow bg-dark">
+		<div class="container-fluid d-flex">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
 
-				<div class="d-flex container-fluid"></div>
-		
-				<div class="collapse navbar-collapse" id="navbarsExample09">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-					<!--li class="nav-item"><a class="nav-link" href="#skills">Skills</a></-li-->
-					<li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
-					<!--li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
-					</ul>
-					</!li-->
+			<div class="d-flex container-fluid"></div>
+	
+			<div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link active" href="#home">
+						<h6 class="text-light">Home</h6></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#aboutme">
+						<h6 class="text-light">About</h6></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">
+						<h6 class="text-light">Projects</h6></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#social">
+						<h6 class="text-light">Social</h6></a>
+				</li>
+				<!--
+					aria-controls="navbarsExample09" -- navbar button
+				li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Action</a></li>
+					<li><a class="dropdown-item" href="#">Another action</a></li>
+					<li><a class="dropdown-item" href="#">Something else here</a></li>
 				</ul>
-				</div>
-			</div>
-		</nav>
-
-		<div class="row">
-			<div class="col-sm-0 col-lg-1 col-xl-2"></div>
-			<div class="col">
-				
-				<div class="sections p-1" id="home">
-					<div class="container-fluid row align-items-center" style="height: 100%;">
-		
-						<div class="col-sm order-sm-1 shadow"> 
-							Image 
-						</div>
-		
-						<div class="col-sm col"> 
-							<div class="mt-5">
-								<h1 class="">Joebert Dilao Cajuday</h1>
-								<h5>Aspiring Software Engineer / Software Developer</h5>
-								<p>Albay, Philippines</p>
-							</div>
-						</div>
-					</div>
-				</div>
-		
-		
-				<div class="sections p-1" id="aboutme">
-					<h4 class="text-primary">About</h4>
-					<div class="container-fluid row align-items-start p-3">
-
-						<div class="col-sm"> 
-							<p>Joebert D. Cajuday is an aspiring Software Engineer / Developer from Albay, Philippines.
-								He completed a Bachelors Degree in Information Technology at Bicol University last July 12, 2023.
-							</p>
-						</div>
-		
-						<div class="col-sm">
-							
-							<div class="bg-white shadow-sm rounded p-2 m-2">
-								<h5 align="center">Interests</h5> 
-								<ul class="ml-3 mt-3">
-									<li>Chess</li>
-									<li>Programming</li>
-									<li>Trading</li>
-								</ul>
-							</div>
-
-							<div class="bg-white shadow-sm rounded p-2 m-2">
-								<h5 align="center">Skills / Tech Stack</h5>
-								<ul class="ml-3 mt-3">
-									<li>Chess</li>
-									<li>Programming</li>
-									<li>Trading</li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
-				</div>
-		
-				<div class="sections p-1" id="projects">
-					<h4 class="text-primary">Projects</h4>
-					<div class="container-fluid row align-items-start p-3" >
-		
-						<div class="col-sm order-sm-1"> 
-							Image 
-						</div>
-						<div class="col-sm"> 
-							<p>Joebert D. Cajuday is an aspiring Software Engineer / Developer from Albay, Philippines.
-								Completed a Bachelors Degree in Information Technology at Bicol University last July 12, 2023.</p>
-							<p><b>Interests</b></p>
-							<ul>
-								<li>Chess</li>
-								<li>Programming</li>
-								<li>Trading</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
+				</!li-->
+			</ul>
 			</div>
 		</div>
+	</nav>
 
-		<div class="shadow-sm rounded p-1" id="social">
-			<h4 class="text-primary">Social</h4>
-			<div class="c-flex p-sm-0 p-lg-5">
+	<div class="row bg-light p-3">
+		<div class="col-sm-0 col-lg-1 col-xl-2"></div>
+		<div class="sections col p-2" id="home">
+			<div class="container-fluid row align-items-center" style="height: 100%;">
 
-				<a class="mx-3" href="https://www.linkedin.com/feed/" target="_blank">
-					<img src="./assets/linkedin-icon.svg" alt="gmail-icon" width="40" height="40">
-				</a>
-				<a class="mx-3" href="https://github.com/JoebertCajuday" target="_blank">
-					<img src="./assets/github-icon.svg" alt="gmail-icon" width="40" height="40">
-				</a>
-				<a class="mx-3" href="mailto: cajudayjoebert1@gmail.com">
-					<img src="./assets/gmail-icon.svg" alt="gmail-icon" width="40" height="40">
-				</a>
-				<a class="mx-3" href="#" target="_blank">
-					<img src="./assets/facebook-icon.svg" alt="gmail-icon" width="40" height="40">
-				</a>
+				<div class="col-sm order-sm-1" align="center"> 
+					<img src="./assets/DSC04544.jpg" alt="My Photo" width="250"
+					class="rounded"> 
+				</div>
+
+				<div class="col-sm col"> 
+					<div class="mt-5">
+						<h1 class="argent"><strong>Joebert Dilao Cajuday</strong></h1>
+						<h5>Aspiring Software Engineer / Software Developer</h5>
+						<p class="">Albay, Philippines</p>
+					</div>
+				</div>
 			</div>
 		</div>
-
-
-
 	</div>
+
+
+	<div class="row bg-light p-3">
+		<div class="col-sm-0 col-lg-1 col-xl-2"></div>
+		<div class="faders animate__animated col p-2" id="aboutme">
+			<h4 class="text-primary mx-3">About</h4>
+			<div class="container-fluid pt-2" id="abttxt"> 
+				<h5>
+					Joebert D. Cajuday is an aspiring Software Engineer / Developer from Albay, Philippines. He completed a Bachelors Degree in Information Technology at Bicol University last July 12, 2023.
+				</h5>
+				<h5 class="poiret-one">
+					<strong>Core Programming Language : Javascript </strong>
+				</h5>
+			</div>
+
+			<div class="row bg-light p-3 poiret-one">
+				<div class="col-sm-0 col-lg-1 col-xl-3"></div>
+				<div class="faders animate__animated col bg-white shadow-sm rounded p-2 my-3 border border-2 border-danger" id="interests">
+					<h5 align="center" class="orange border-bottom py-2"><strong>Interests</h5></strong>
+					<ul class="ml-3 mt-3 c-list">
+						<li>Chess</li>
+						<li>Programming</li>
+						<li>Forex</li>
+						<!--li>Maria</li-->
+					</ul>
+				</div>
+			</div>
+
+			<div class="row bg-light p-3 poiret-one">
+				<div class="faders animate__animated col bg-white shadow-sm rounded p-2 my-3 border border-2 border-warning" id="tstack">
+						<h5 align="center" class="orange border-bottom py-2">
+							<strong>Skills / Tech Stack</strong>
+						</h5>
+
+						<div class="row justify-content-center align-items-center">
+							<div class="col">
+								<img src="./assets/javascript.svg" width="50" height="50" alt="PHP logo" class="m-3">
+							</div>
+							<div class="col">
+								<img src="./assets/typescript.svg" width="50" height="50" alt="PHP logo" class="m-3">
+							</div>
+							<div class="col">
+								<img src="./assets/php3.svg" width="50" height="50" alt="PHP logo" class="m-3">
+							</div>
+							<div class="col">
+								<img src="./assets/react.svg" width="50" height="50" alt="PHP logo" align="m-3">
+							</div>
+							<div class="col">
+								<img src="./assets/mysql.svg" width="50" height="50" alt="PHP logo" align="m-3">
+							</div>
+							<div class="col">
+								<img src="./assets/expressjs-icon.svg" width="50" height="50" alt="PHP logo" align="m-3">
+							</div>
+							
+						</div>
+
+					</div>
+				<div class="col-sm-0 col-lg-1 col-xl-3"></div>
+			</div>
+		</div>
+		<div class="col-sm-0 col-lg-1 col-xl-2"></div>
+	</div>
+
+	<div class="row bg-light p-3">
+		<div class="col-sm-0 col-lg-1 col-xl-2"></div>
+		<div class="faders animate__animated col p-2" id="projects">
+			<h4 class="text-primary mx-3">Projects</h4>
+
+			<div class="container-fluid d-flex flex-wrap">
+				<div class="card m-3 p-0" style="width: 300px;">
+			  		<img src="./assets/ERS_thumbnail.png" class="d-block rounded-top w-100" alt="Emergency Report System Thumbnail">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Emergency Report System</h5>
+				    	<p class="card-text">An Android application that enables a fast and easy way to report incidents/emergencies to the corresponding officials. A capstone project.
+				    	</p>
+				    	<a href="https://github.com/JoebertCajuday/Capstone-project" class="btn btn-dark" target="_blank">View</a>
+				  	</div>
+				</div>
+
+				<div class="card m-3 p-0" style="width: 300px;">
+			  		<img src="./assets/SA_thumbnail.png" class="d-block rounded-top w-100" alt="Simple Auth Thumbnail">
+				  	<div class="card-body">
+				    	<h5 class="card-title">Simple Auth</h5>
+				    	<p class="card-text">A simple authentication system built with Node.js, Typescript, and ExpressJS
+				    	</p>
+				    	<a href="https://github.com/JoebertCajuday/Simple-Auth" class="btn btn-dark" target="_blank">View</a>
+				  	</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<footer class="py-3 bg-dark" id="social">
+		<p></p>
+	    <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
+	      <li class="nav-item">
+	      	<a class="mx-3" href="https://www.linkedin.com/in/joebert-cajuday-95b957281" target="_blank">
+				<img src="./assets/linkedin-icon.svg" alt="gmail-icon" width="40" height="40">
+			</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="mx-3" href="https://github.com/JoebertCajuday" target="_blank">
+				<img src="./assets/github-icon.svg" alt="gmail-icon" width="40" height="40">
+			</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="mx-3" href="mailto: cajudayjoebert1@gmail.com">
+				<img src="./assets/gmail-icon.svg" alt="gmail-icon" width="40" height="40">
+			</a>
+	      </li>
+	      <li class="nav-item">
+	      	<a href="https://www.facebook.com/Cajuday.Joebert.12?mibextid=ZbWKwL" 
+	      	target="_blank" class="mx-3">
+				<img src="./assets/facebook-icon.svg" alt="gmail-icon" width="40" height="40">
+			</a>
+	      </li>
+	    </ul>
+
+    	<p class="text-center text-light">© 2023 Joebert Cajuday</p>
+  	</footer>
+
+
 	<script src="./src/index.js"></script>
 </body>
 </html>
